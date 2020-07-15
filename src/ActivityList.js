@@ -9,7 +9,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Avatar from "@material-ui/core/Avatar";
 import Paper from "@material-ui/core/Paper";
 import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
+// import div from "@material-ui/core/div";
 import FolderIcon from "@material-ui/icons/Folder";
 import Cooking from "@material-ui/icons/Fastfood";
 import Education from "@material-ui/icons/LocalLibrary";
@@ -105,8 +105,8 @@ import {
             style={{
               display: "flex",
               flexDirection: "column",
-              height: "100vh",
-              justifyContent: "space-around"
+              height: "calc(100vh - 40px)",
+              justifyContent: "space-around",
             }}
           >
             <div
@@ -115,50 +115,82 @@ import {
                 flexDirection: "row",
                 justifyContent: "space-evenly",
                 flex: 1,
-                padding: "20px"
+                padding: "10px",
               }}
             >
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Social />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Social
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Social style={{ height: "45%", width: "45%", color: "#fd9644" }} />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Social</div>
               </Paper>
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Busywork />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Busywork
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Busywork style={{ height: "45%", width: "45%", color: "#fc5c65" }} />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Busywork</div>
               </Paper>
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Recreational />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Recreational
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Recreational
+                      style={{ height: "45%", width: "45%", color: "#45aaf2" }}
+                    />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Recreational</div>
               </Paper>
             </div>
             <div
@@ -167,50 +199,80 @@ import {
                 flexDirection: "row",
                 justifyContent: "space-evenly",
                 flex: 1,
-                padding: "20px"
+                padding: "10px",
               }}
             >
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Diy />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Diy
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Diy style={{ height: "45%", width: "45%", color: "#0652DD" }} />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Diy</div>
               </Paper>
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Charity />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Charity
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Charity style={{ height: "45%", width: "45%", color: "#20bf6b" }} />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Charity</div>
               </Paper>
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Cooking />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Cooking
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Cooking style={{ height: "45%", width: "45%", color: "#f7b731" }} />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Cooking</div>
               </Paper>
             </div>
             <div
@@ -219,50 +281,80 @@ import {
                 flexDirection: "row",
                 justifyContent: "space-evenly",
                 flex: 1,
-                padding: "20px"
+                padding: "10px",
               }}
             >
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Education />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Education
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Education style={{ height: "45%", width: "45%", color: "#a55eea" }} />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Education</div>
               </Paper>
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Relaxation />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Relaxation
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Relaxation style={{ height: "45%", width: "45%", color: "#535c68" }} />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Relaxation</div>
               </Paper>
               <Paper
                 style={{
                   display: "flex",
+                  width: "30%",
                   flexDirection: "column",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
-                <Avatar>
-                  <Music />
-                </Avatar>
-                <Typography variant="h5" component="h3">
-                  Music
-                </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    flex: "3",
+                    width: "100%",
+                    height: "100%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Avatar style={{ height: "100%", width: "100%", backgroundColor: 'white' }}>
+                    <Music style={{ height: "45%", width: "45%", color: "#833471" }} />
+                  </Avatar>
+                </div>
+                <div style={{ display: "flex", flex: "1" }}>Music</div>
               </Paper>
             </div>
           </div>
@@ -279,7 +371,7 @@ import {
           </Paper> */}
           {this.state.isLoading === true ? null : (
             <List>
-              {this.state.activities.map(activity => (
+              {this.state.activities.map((activity) => (
                 <ListItem button>
                   <ListItemAvatar>
                     <Avatar style={{ backgroundColor: "white" }}>
